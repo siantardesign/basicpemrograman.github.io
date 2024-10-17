@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Pemrograman Web - CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div>
+            <h3>Partukam.</h3>
+            <a href="index3.html">JS</a>
+            <a href="index2.html">HTML</a>
+            <hr> 
+        </div>
+    </header>
+
+    <h4>Basic Pemrograman Web - CSS</h4>
+
+    <div id="sec1">
+        <h5>#01 : Pengenalan Dasar CSS untuk pemula</h5>
+        <h6>- Definisi CSS</h6>
+        <p>&nbsp; CSS adalah singkatan dari cascading style sheets, yaitu bahasa yang digunakan untuk menentukan tampilan dan format halaman website. Dengan CSS, Anda bisa mengatur jenis font, warna tulisan, dan latar belakang halaman.</p>
+        <h6>- Sejarah dan Perkembangan CSS</h6>
+        <p>&nbsp;Sebelum adanya CSS, tidak ada bahasa yang dipakai untuk memberikan style pada dokumen (web). Tampilan web terasa hambar dan kurang tertata.
+            <p class="title-mini">1990</h6>
+            <p>Tim Berners-Lee membuat web browser bernama NeXT browser/editor.</p>
+            Pada browser ini, kita bisa membuat style sheet. Akan tetapi, sintaks style sheet-nya tidak ia publikasikan.
+            <p class="title-mini">10 Oktober 1994</p>
+            <p>Håkon Wium Lie membuat draft proposal bahasa CSS dan mengirimnya ke mailist www-talk dan www-html.</p>
+            <p class="title-mini"></p>
+            <p>Wium Lie mempresentasikan draft proposal bahasa CSS (Cascading HTML Style Sheets) di acara Web Conference di Chicago.
+            Orang pertama yang merespon proposal ini adalah Bert Bos. Ia saat itu sedang mengembangkan browser bernama Argo. Kemudian ia memutuskan untuk bergabung dengan Wium Lie untuk mengembangkan CSS.
+            <p class="title-mini">Mei 1995</p>
+            <p>Implementasi bahasa CSS mulai dikerjakan. Pada bulan ini mail list (group) baru bernama www-style dibuat. Mai list menjadi tempat diskusi pengembangan CSS.</p>
+            <p class="title-mini">17 Desember 1996</p>
+            <p>CSS versi pertama atau CSS 1 akhirnya dirilis.</p>
+            <p class="title-mini">Mei 1998</p>
+            <p>CSS veri kedua atau CSS 2 dirilis. Pada versi ini ditambahkan dukungan media output.</p>
+    </div>
+
+    <div id="sec2">
+        <h5>#02 : Cara Menulis CSS di HTML</h5>
+        <p class="title-mini2">Internal CSS : ditulis di dalam tag.</p>
+            <img src="z_inline.png" alt="" width="50%" height="120px">
+        <p class="title-mini2">Inline CSS : ditulis di atribut elemen HTML;</p>
+            <img src="z_intag.png" alt="" width="50%" height="60px">
+        <p class="title-mini2">External CSS : ditulis di file CSS terpisah dengan HTML.</p>
+            <img src="z_out.png" alt="" width="50%" height="80px">
+        <p>Untuk memanggil css mengunakan external css, kita perlu mengetikkan "link rel="stylesheet" href="style.css" / nama dokumen css</p>
+    </div>
+
+    <div id="sec3"></div>
+        <h5>#03 Sintaks Dasar CSS yang Harus Dipahami</h5>
+        <p class="title-mini"></p>
+        <h6>- Selektor</h6>
+        <p>Selektor adalah kata kunci untuk memilih elemen HTML yang akan kita beri style.</p>
+        <img src="z_selector.png" width="50%" height="100px" alt="">
+        <p>Artinya: Kita memilih semua elemen "h1", lalu diberikan warna teks red (merah).
+            Selektor dapat berupa nama tag, class, id, dan atribut.</p>
+        <p>Contoh :</p>
+            <img src="z_contoh.png" width="50%"  alt="">
+        <h6>- Blok Deklarasi</h6>
+        <img src="z_deklarasi.png" width="50%" alt="">
+        <p>Blok deklarasi adalah tempat kita menuliskan atribut atau properti CSS yang akan diberikan ke pada elemen yang telah diseleksi.</p>
+        <p>Artinya, kita akan mengatur ukuran font dari tag sebesar 18px.
+            Blok deklarasi dimulai atau dibuka dengan tanda kurung { lalu ditutup dengan }.
+            Satu blok deklarasi, bisa dipakai oleh lebih dari satu selektor.</p>
+        <p>Contoh :</p>
+        <img src="z_contoh2.png" width="50%" alt="">
+        <p>Ini artinya kita memberikan warna sama untuk semua tag "h1" sampai "h6".</p>
+        <h6>- Properti & nilainya</h6>
+        <p>Properti adalah sekumpulan aturan yang akan diberikan kepada elemen yang dipilih.</p>
+        <img src="z_dibawah.png" width="50%" alt="">
+        <img src="z_contoh3.png" width="50%" alt="">
+        </div>  
+</body>
+</html>
